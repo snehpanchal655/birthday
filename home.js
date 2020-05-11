@@ -6,7 +6,7 @@ function ageInDays() {
     var minutes=hours*60;
     var sec= minutes*60; 
     var h1 = document.createElement('h1');
-    var textAnswer = document.createTextNode('Hey you are ' + days + ' days old. You live for ' + hours + ' hours, ' + minutes + '  minutes and ' + sec + ' seconds doing nothing except being bitch(Krina)  HAPPY BIRTHDAY ');
+    var textAnswer = document.createTextNode('Hey you are ' + days + ' days old. You live for ' + hours + ' hours, ' + minutes + '  minutes and ' + sec + ' seconds doing nothing except being bitch()  HAPPY BIRTHDAY ');
     h1.setAttribute('id', 'ageInDays');
     h1.appendChild(textAnswer);
     document.getElementById('flex-box-result').appendChild(h1);
